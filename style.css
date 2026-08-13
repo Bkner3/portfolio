@@ -1,0 +1,106 @@
+/* ========================= Geral ========================= */
+body {
+  margin: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+a {
+  color: #58a6ff;
+} /* ========================= Header ========================= */
+.hero {
+  position: relative;
+  text-align: center;
+  padding: 40px 0;
+
+}
+
+.hero-art {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+}
+
+.title h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.title p {
+  color: #8b949e;
+} /* ========================= ASCII Art ========================= */
+.ascii-art {
+  position: absolute;
+  left: -180px;
+  top: 30px;
+  color: #238636;
+  font-family: monospace;
+  font-size: 12px;
+} /* ========================= Botões estilo GitHub ========================= */
+#gitlikebutton {
+  background-color: #238636;
+  color: #fff;
+  border: 1px solid #2ea043;
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin: 8px;
+  text-decoration: none;
+  display: inline-block;
+}
+#gitlikebutton:hover {
+  background-color: #2ea043;
+  border-color: #3fb950;
+} /* ========================= Secções ========================= */
+#about,
+#projects,
+#learning,
+#contact {
+  background-color: #010409;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 25px;
+  margin: 25px 0;
+}
+h2 {
+  margin-top: 0;
+  color: #fff;
+}
+h3 {
+  color: #fff;
+} /* ========================= Projectos ========================= */
+.project {
+  background-color: #0d1117;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  padding: 20px;
+}
+.project p {
+  color: #8b949e;
+} /* ========================= Currently Learning ========================= */
+#learning ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+#learning li {
+  background-color: #21262d;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  padding: 6px 12px;
+} /* ========================= Footer ========================= */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  color: #8b949e;
+  font-size: 0.85rem;
+  border-top: 1px solid #30363d;
+}
