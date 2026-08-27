@@ -1,4 +1,4 @@
-![Logo](logo.png)
+![Logo](Logo.png)
 
 ## Hello my name is Bernardo
 And welcome to my personal portfolio.
